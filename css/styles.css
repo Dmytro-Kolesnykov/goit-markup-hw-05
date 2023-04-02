@@ -95,6 +95,7 @@ nav {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .header-link:hover,
 .header-link:focus {
@@ -113,6 +114,7 @@ address {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .address-link:hover,
 .address-link:focus {
@@ -158,6 +160,7 @@ address {
   margin-left: auto;
   margin-right: auto;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .first-st-button:hover,
 .first-st-button:focus {
@@ -280,6 +283,7 @@ address {
   align-items: center;
   background-color: var(--iris);
   border-radius: 50%;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .card-social-link:hover,
 .card-social-link:focus {
@@ -318,12 +322,14 @@ address {
   align-items: center;
   border: 1px solid var(--light-slate);
   border-radius: 4px;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .customers-img {
   display: block;
   width: 104px;
   height: 56px;
   fill: var(--light-slate);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .customers-link:hover,
 .customers-link:focus {
@@ -354,6 +360,7 @@ address {
 }
 .portfolio-sc-link {
   display: block;
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .portfolio-sc-link:hover,
 .portfolio-sc-link:focus {
@@ -372,6 +379,9 @@ address {
   border: 1px solid var(--cornflower);
   border-radius: 4px;
   padding: 12px 24px;
+  transition-property: color, background-color, border-color, box-shadow;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .portfolio-button:hover,
 .portfolio-button:focus {
@@ -452,6 +462,7 @@ address {
   height: 40px;
   border-radius: 50%;
   background-color: rgba(255, 255, 255, 0.1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .social-media-img {
   display: block;
